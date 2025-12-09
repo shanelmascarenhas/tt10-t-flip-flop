@@ -6,7 +6,6 @@ input wire [7:0] uio_in, // IOs: Input path
 output wire [7:0] uio_out, // IOs: Output path
 output wire [7:0] uio_oe, // IOs: Enable path (active high:
 0=input, 1=output)
-163
 input wire ena, // always 1 when the design is powered,
 so you can ignore it
 input wire clk, // clock
@@ -33,7 +32,6 @@ assign uo_out[0] = q;
 assign uo_out[1] = qbar;
 assign uo_out[2] = 1'b0;
 assign uo_out[3] = 1'b0;
-164
 assign uo_out[4] = 1'b0;
 assign uo_out[5] = 1'b0;
 assign uo_out[6] = 1'b0;
