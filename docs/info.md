@@ -15,7 +15,7 @@ output on and off based on the "tin" input and clock signal.
 ## How to test
 Refer to the state table of t flip flop. Observe if the output is
 correctly changing based on the input and clock pulse.
-168
+
 ## External hardware
 List external hardware used in your project (e.g. PMOD, LED display,
 etc), if any
